@@ -3,6 +3,9 @@ import {StackNavigator} from 'react-navigation';
 import Intro from './Components/Intro/Intro';
 export const Home = StackNavigator({
     main:{
-        screen: Intro
+        screen: Intro,
+        navigationOptions:{
+            header: null
+        }
     }
 });
