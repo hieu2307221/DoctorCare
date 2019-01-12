@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
-import Main from '../ChucNang/Main';
+import Main from '../Auth/Main';
  
 const styles = StyleSheet.create({
   image: {

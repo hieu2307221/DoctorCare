@@ -8,8 +8,11 @@
   "dependencies": {
     "react": "16.6.3",
     "react-native": "0.57.8",
+    "react-native-animated-swiper": "^0.0.23",
     "react-native-app-intro-slider": "^1.0.1",
     "react-native-app-walkthrough": "^1.0.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-swiper": "^1.5.14",
     "react-navigation": "2.0"
   }
 }
