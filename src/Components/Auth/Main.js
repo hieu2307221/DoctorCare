@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, ImageBackground, StyleSheet, Image} from 'react-native';
-
+import { Button } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
 export default class Main extends Component {
  
@@ -36,7 +36,14 @@ style={{alignSelf:'center', marginTop:20}}
 </View>
              <View style={styles.thanhvien}>
 
-
+             <Button
+  large
+  icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
+  title='OCTICON' />
+   <Button
+  large
+  icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
+  title='OCTICON' />
              </View>
         </View>
        
@@ -97,7 +104,8 @@ const styles = StyleSheet.create({
     alignItems:'center',
     justifyContent:'center',
     alignSelf:'center'
-  }
+  },
+ 
 
 });
 
