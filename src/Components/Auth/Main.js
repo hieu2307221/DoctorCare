@@ -57,7 +57,22 @@ style={{alignSelf:'center', marginTop:20}}
                 <Text style={{alignSelf:'center', marginTop:15, fontWeight:'bold', color:'white', fontSize:20}}>DANG NHAP FACEBOOK</Text>
 
                 </View>
+                <View style={{flexDirection:'row', justifyContent:'center'}}>
+                <Text style={{fontSize:15,textAlign:'center', marginTop:10, color:'black'}}> Ban chua co tai khoan?</Text>
+                <Text style={{fontSize:15,textAlign:'center', marginTop:10, color:'black', borderBottomColor:'black', borderBottomWidth:2}}>Dang ky</Text>
  
+                </View>
+                <View style={{  
+  alignSelf: 'center',
+  justifyContent: 'center',
+  //alignItems: 'center',
+  position: 'absolute', //Here is the trick
+  bottom: 10, }}>
+
+                <Text> Chinh sach dieu khoan</Text>
+
+                </View>
+               
              </View>
         </View>
        
@@ -84,8 +99,8 @@ const styles = StyleSheet.create({
   thanhvien:{
     //flex:1/10,
     width:'100%',
-    height: 200,
-  backgroundColor: '#EE5407',
+    height: 300,
+  //ßbackgroundColor: '#EE5407',
   alignSelf: 'center',
   justifyContent: 'center',
   //alignItems: 'center',
