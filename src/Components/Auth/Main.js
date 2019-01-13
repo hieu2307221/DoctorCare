@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {View, Text, ImageBackground, StyleSheet, Image} from 'react-native';
 import { Button } from 'react-native-elements';
 import Swiper from 'react-native-swiper';
+
+import FontAwesome, { Icons } from 'react-native-fontawesome';
+
 export default class Main extends Component {
  
   render() {
@@ -35,15 +38,26 @@ style={{alignSelf:'center', marginTop:20}}
 
 </View>
              <View style={styles.thanhvien}>
+<View>
+  
+</View>
+                <View style={{backgroundColor:'#1AD7E7', marginLeft:10, height:50, marginRight:10, marginBottom:20}}>
+                
+                <Text style={{alignSelf:'center', marginTop:15, fontWeight:'bold', color:'white', fontSize:20}}> LOGIN</Text>
 
-             <Button
-  large
-  icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
-  title='OCTICON' />
-   <Button
-  large
-  icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
-  title='OCTICON' />
+                </View>
+ 
+
+
+                <View style={{backgroundColor:'#3864A6', marginLeft:10, height:50, marginRight:10}}>
+      
+
+
+
+                <Text style={{alignSelf:'center', marginTop:15, fontWeight:'bold', color:'white', fontSize:20}}>DANG NHAP FACEBOOK</Text>
+
+                </View>
+ 
              </View>
         </View>
        
@@ -76,7 +90,7 @@ const styles = StyleSheet.create({
   justifyContent: 'center',
   //alignItems: 'center',
   position: 'absolute', //Here is the trick
-  bottom: 0, //Here is the trick
+  bottom: 0, //Here is the trick,
 
   },
   slide1: {
